@@ -1,7 +1,6 @@
 package ui;
 import model.Controller;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 
@@ -29,6 +28,11 @@ public class Main {
 
     public static void counterFileTxt(){
         System.out.println(controller.countCharacters());
+    }
+
+    public static void addPeople(){
+        System.out.println("Ingresa el nombre de la persona: ");
+        System.out.println(controller.addPeople("", 00));
     }
 
 }
