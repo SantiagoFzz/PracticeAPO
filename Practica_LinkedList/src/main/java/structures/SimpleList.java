@@ -69,6 +69,39 @@ public class SimpleList {
         return response;
     }
 
+    public boolean deleteWithIndex(int index){
+        boolean isDeleted = false;
+
+        Node current = first;
+
+        // 1. Caso base : lista vacia
+        if(first != null){
+            // 2. caso base, la lista tiene UN elemento.
+            if(first.getIndex() == index){
+                first.setIndex(first.getNext().getIndex());
+                first = first.getNext();
+                current.setNext(null);
+                isDeleted = true;
+            }else{
+                while(current.getNext() != null && current.getNext().getIndex() != index  ){
+                    current = current.getNext();
+                }
+                if(current.getNext() != null){
+                    Node toDelete = current.getNext();
+                    int indexTemporal = toDelete.getIndex();
+                    current.getNext().setIndex(indexTemporal);
+                    current.setNext(toDelete.getNext());
+                    toDelete.setNext(null);
+                    isDeleted = true;
+                }
+
+            }
+        }
+
+        return isDeleted;
+
+    }
+
     public Node getLast() {
         return last;
     }
