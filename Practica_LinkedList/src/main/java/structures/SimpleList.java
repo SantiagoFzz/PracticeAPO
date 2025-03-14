@@ -2,10 +2,9 @@ package structures;
 
 public class SimpleList {
     private Node first;
+    private Node last;
 
-    public SimpleList(){
-        first = null;
-    }
+    public SimpleList(){ first = null;last = null; }
 
     public boolean add(String data){
         // Crear el nodo a agregar.
@@ -17,6 +16,7 @@ public class SimpleList {
         if(first == null){
             first = node;
             first.setIndex(0);
+            last = first;
             isAdded = true;
         }
         // 2. Caso Base -> La lista tiene un elemento.
@@ -25,6 +25,7 @@ public class SimpleList {
                 first.setNext(node);
                 isAdded = true;
                 first.getNext().setIndex(1);
+                last = first.getNext();
             }
             else {
                 // elemento de referencia
@@ -39,6 +40,7 @@ public class SimpleList {
                 // agregar al final de la lista
                 current.setNext(node);
                 current.getNext().setIndex(current.getIndex() + 1);
+                last = current.getNext();
                 isAdded = true;
             }
         }
@@ -65,6 +67,14 @@ public class SimpleList {
 
 
         return response;
+    }
+
+    public Node getLast() {
+        return last;
+    }
+
+    public void setLast(Node last) {
+        this.last = last;
     }
 
     public Node getFirst() {

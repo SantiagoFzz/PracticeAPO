@@ -7,20 +7,17 @@ public class Main {
         SimpleList list = new SimpleList();
 
         list.add("A1");
-        System.out.println(list.getFirst());
-
+        list.add("A8");
         list.add("A2");
-        System.out.println(list.getFirst().getNext());
-
         list.add("A3");
-        System.out.println(list.getFirst().getNext().getNext());
-
         list.add("A4");
-        System.out.println(list.getFirst().getNext().getNext().getNext());
-
         list.add("A5");
-        System.out.println(list.getFirst().getNext().getNext().getNext().getNext());
 
-        System.out.println(list.getByIndex(6));
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println(list.getByIndex(i));
+        }
+
+        System.out.println("The last is: " + list.getLast().toString());
     }
 }
