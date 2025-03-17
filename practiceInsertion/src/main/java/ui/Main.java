@@ -22,6 +22,7 @@ public class Main {
 
         //Tenemos dos metodos para ordenar el arreglo.
         orderByAge2();
+        printList();
     }
 
     public static void orderByAge1(){
@@ -47,15 +48,12 @@ public class Main {
 
     public static void orderByAge2(){
         Person key;
-
         for(int i = 1; i < people.length; i++){
             key = people[i];
-
-            while(people[i-1].getAge() > people[i].getAge()){
+            while(i != 0 && people[i-1].getAge() > key.getAge()){
                 people[i] = people[i-1];
                 i--;
             }
-
             people[i] = key;
         }
     }
