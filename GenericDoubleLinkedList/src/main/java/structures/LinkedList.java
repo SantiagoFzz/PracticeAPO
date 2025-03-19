@@ -44,24 +44,31 @@ public class LinkedList {
         boolean isDeleted = false;
         Node current = head;
 
-        // La lista NO esta vacia.
+        // debe estar agregado por lo menos un elemento.
         if(head != null){
-            // caso base 1. El nodo a eliminar es el PRIMERO.
+            // caso 1. Queremos eliminar el primer elemento.
             if(head.getData().compareTo(data) == 0){
                 head = head.getNext();
                 current.setNext(null);
                 head.setPrevious(null);
                 isDeleted = true;
             }else{
-                // caso base 2. El nodo a eliminar es diferente del primero.
-                while(current.getNext() == null && current.getNext().getData().compareTo(data) != 0){
+                // caso 2. Queremos eliminar un elemento diferente al primero.
+                while(current.getNext() != null && current.getNext().getData().compareTo(data) != 0){
                     current = current.getNext();
                 }
-                
+                if(current.getNext() != null){
+                    Node nodeDeleted = current.getNext();
+
+                    current.setNext(nodeDeleted.getNext());
+                    nodeDeleted.getNext().setPrevious(nodeDeleted.getPrevious());
+
+                    nodeDeleted.setPrevious(null);
+                    nodeDeleted.setNext(null);
+                    isDeleted = true;
+                }
             }
         }
-
-
         return isDeleted;
     }
 
@@ -77,5 +84,21 @@ public class LinkedList {
         msj += current.getData();
 
         return msj;
+    }
+
+    public Node getHead() {
+        return head;
+    }
+
+    public void setHead(Node head) {
+        this.head = head;
+    }
+
+    public Node getTail() {
+        return tail;
+    }
+
+    public void setTail(Node tail) {
+        this.tail = tail;
     }
 }

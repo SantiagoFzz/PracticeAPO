@@ -1,30 +1,30 @@
 package structures;
 
-public class Node {
-    private Node next;
-    private Node previous;
+public class Node < T extends Comparable<T> >{
+    private Node<T> next;
+    private Node<T> previous;
     private int index;
-    private String data;
+    private T data;
 
-    public Node(String data){
+    public Node(T data){
         this.data = data;
         this.next = null;
         this.previous = null;
     }
 
-    public Node getNext() {
+    public Node<T> getNext() {
         return next;
     }
 
-    public void setNext(Node next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 
-    public Node getPrevious() {
+    public Node<T> getPrevious() {
         return previous;
     }
 
-    public void setPrevious(Node previous) {
+    public void setPrevious(Node<T> previous) {
         this.previous = previous;
     }
 
@@ -36,11 +36,11 @@ public class Node {
         this.index = index;
     }
 
-    public String getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(String data) {
+    public void setData(T data) {
         this.data = data;
     }
 
