@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4d4afb0-bf6e-4e13-96a0-c1495bd318a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/src/main/java/structures/DoubleLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/src/main/java/structures/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/src/main/java/ui/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoubleLinkedList/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/src/main/java/structures/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/src/main/java/structures/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/src/main/java/ui/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericDoubleLinkedList/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/src/main/java/structures/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/src/main/java/structures/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/src/main/java/ui/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/target/classes/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/target/classes/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/target/classes/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/target/classes/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/target/classes/structures/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/target/classes/structures/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaAddOrder/target/classes/ui/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/src/main/java/structures/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/src/main/java/structures/SimpleList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/src/main/java/ui/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica_LinkedList/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structures/ISortedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structures/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structures/SortedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/structures/SortedListTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2v5NV1XeXHsuT8e0pu4m6f1clol" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Usuarios/1111669399/Documents/PracticeAPO/practiceStructuresGeneric/src/main/java/structures",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Usuarios\1111669399\Documents\PracticeAPO\practiceStructuresGeneric\src\main\java\structures" />
+      <recent name="D:\Usuarios\1111669399\Documents\PracticeAPO\practiceStructuresGeneric\src\test\java\structures" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4d4afb0-bf6e-4e13-96a0-c1495bd318a1" name="Changes" comment="" />
+      <created>1743430999969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743430999969</updated>
+      <workItem from="1743431001325" duration="1949000" />
+      <workItem from="1743771222027" duration="182000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
