@@ -8,17 +8,16 @@ public class Main {
 
         tree.add(50);
         tree.add(30);
-        tree.add(40);
-        tree.add(45);
         tree.add(70);
+        tree.add(20);
+        tree.add(35);
+        tree.add(33);
+        tree.add(40);
         tree.add(60);
         tree.add(75);
-        tree.add(65);
         tree.add(73);
         tree.add(80);
 
-        tree.delete(70);
-        System.out.println(tree.getRoot().getValue());
-        System.out.println(tree.getRoot().getRight().getValue());
+        System.out.println(tree.inOrder());
     }
 }

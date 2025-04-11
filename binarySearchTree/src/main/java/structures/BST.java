@@ -160,6 +160,26 @@ public class BST<T extends Comparable<T>> {
         return current;
     }
 
+
+    public String inOrder(){
+        String msj = "";
+        if(root != null){
+            msj = inOrder(root);
+        }else{
+            msj = "Is empty tree";
+        }
+        return msj;
+    }
+
+    public String inOrder(Node<T> current){
+        if(current != null){
+            return inOrder(current.getLeft()) + current.getValue() + " " + inOrder(current.getRight());
+        }
+        else{
+            return "";
+        }
+    }
+
     // Get the max node.
     private Node<T> getMax(Node<T> current){
         if(current.getRight() != null){
