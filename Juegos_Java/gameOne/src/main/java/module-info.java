@@ -8,4 +8,6 @@ module org.example.gameone {
     exports org.example.gameone;
     exports org.example.gameone.implementation;
     opens org.example.gameone.implementation to javafx.fxml;
+    exports org.example.gameone.entities;
+    opens org.example.gameone.entities to javafx.fxml;
 }
